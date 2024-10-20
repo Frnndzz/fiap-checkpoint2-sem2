@@ -30,7 +30,6 @@ public class ClienteController {
 
     private final ClienteService clienteService;
     private final ClienteMapper clienteMapper;
-    private final ClienteRepository clienteRepository;
 
     @GetMapping
     public ResponseEntity<List<ClienteResponseDto>> list() {

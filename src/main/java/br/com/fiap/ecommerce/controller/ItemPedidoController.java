@@ -28,7 +28,6 @@ public class ItemPedidoController {
 
     private final ItemPedidoService itemPedidoService;
     private final ItemPedidoMapper itemPedidoMapper;
-    private final ItemPedidoRepository itemPedidoRepository;
 
     @GetMapping
     public ResponseEntity<List<ItemPedidoResponseDto>> list() {
